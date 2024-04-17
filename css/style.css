@@ -1,0 +1,98 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.clr {
+  clear: both;
+}
+
+.l-heading {
+  font-size: 4rem;
+  padding-bottom: 60px;
+}
+
+.btn {
+  padding: 0.75rem 1rem;
+  color: #fff;
+  background: #333;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background: #444;
+  color: #f4f4f4;
+}
+
+/* Navbar */
+#navbar {
+  width: 1200px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+#navbar .logo {
+  float: left;
+}
+
+#navbar ul {
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  margin: 0 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+#navbar ul li a:hover {
+  border-bottom: 2px solid #eee;
+}
+
+/* Main Header */
+#main-header {
+  background: url('/img/cooking-bg.jpg') no-repeat center center/cover;
+  color: #fff;
+  height: 100vh;
+}
+
+#main-header .home-content {
+  padding-top: 30vh;
+  text-align: center;
+}
+
+#main-header .home-content p {
+  font-size: 1.1rem;
+  margin-bottom: 4rem;
+}
